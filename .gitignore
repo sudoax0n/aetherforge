@@ -1,0 +1,14 @@
+# Ignore everything
+*
+
+# Allow specific files in root
+!README.md
+!gemini-extension.json
+!.gitignore
+
+# Allow directories (must allow the directory and its contents)
+!docs/
+!docs/**
+!skills/
+!skills/aetherforge/
+!skills/aetherforge/**

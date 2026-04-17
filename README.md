@@ -1,4 +1,10 @@
-# AetherForge – Elite Distinctive Frontend Design Skill for Gemini CLI
+<p align="center">
+  <img src="docs/assets/socialbanner.png" width="100%" alt="AetherForge Banner" />
+</p>
+
+# AetherForge — Elite frontend design skill for Gemini CLI
+
+**Forces bold, non-generic, production-grade UIs. No more AI slop.**
 
 The official Anthropic `frontend-design` skill, cleanly ported and refined for **Gemini CLI**.
 
@@ -31,5 +37,5 @@ AetherForge should kick in automatically.
 
 ---
 
-**Made by [@sudoax0n](https://x.com/sudoax0n)**  
+**Made by [@sudoax0n](https://x.com/beyondwudan)**  
 Star ⭐ if you’re tired of generic AI UIs.
