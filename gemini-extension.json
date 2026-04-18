@@ -1,7 +1,8 @@
 {
   "name": "aetherforge",
   "displayName": "AetherForge",
-  "version": "1.0.0",
+  "version": "1.0.1",
+  "contextFileName": "GEMINI.md",
   "description": "AetherForge — Elite frontend design skill for Gemini CLI. Forces bold, non-generic, production-grade UIs. No more AI slop.",
   "author": "sudoax0n",
   "homepage": "https://github.com/sudoax0n/aetherforge",

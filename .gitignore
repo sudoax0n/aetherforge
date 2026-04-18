@@ -4,6 +4,7 @@
 # Allow specific files in root
 !README.md
 !gemini-extension.json
+!GEMINI.md
 !.gitignore
 
 # Allow directories (must allow the directory and its contents)
