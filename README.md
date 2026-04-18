@@ -44,6 +44,13 @@ Then try any frontend prompt like:
 
 AetherForge should kick in automatically.
 
+### Troubleshooting
+
+If the extension is not found or fails to activate in certain directories, check the following:
+
+- **Safe Mode:** Gemini CLI may restrict extension execution in untrusted folders. If you trust the current workspace, run `gemini trust` to enable all extension features.
+- **Workspace Overrides:** Check your `extension-enablement.json` file. Local workspace configurations can sometimes override global settings, causing specific extensions to be disabled. Ensure AetherForge is permitted in your project's configuration.
+
 ---
 
 **Made by [@sudoax0n](https://x.com/beyondwudan)**  
