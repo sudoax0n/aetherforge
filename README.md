@@ -14,6 +14,15 @@ Whenever you ask Gemini to build any UI (landing page, dashboard, component, app
 No more Inter font + purple gradient slop.  
 You get real aesthetic direction, striking typography, thoughtful motion, and personality.
 
+### AetherForge in Action
+
+Even a smaller model like **Gemini 3 Flash** with **AetherForge** produces more distinctive, professional results than a larger model like **Gemini 3.1 Pro** without it.
+
+| **Generic AI Slop** (Gemini 3.1 Pro) | **AetherForge Force** (3 Flash) |
+| :--- | :--- |
+| ![Generic Slop](docs/assets/comparison-generic.png) | ![AetherForge Result](docs/assets/comparison-aetherforge.png) |
+| *Purple gradients, Inter font, generic SaaS layout.* | *Bold typography, striking layout, unique personality.* |
+
 ### One-command install
 ```bash
 gemini extensions install https://github.com/sudoax0n/aetherforge
