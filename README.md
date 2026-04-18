@@ -49,7 +49,12 @@ AetherForge should kick in automatically.
 If the extension is not found or fails to activate in certain directories, check the following:
 
 - **Safe Mode:** Gemini CLI may restrict extension execution in untrusted folders. If you trust the current workspace, run `gemini trust` to enable all extension features.
-- **Workspace Overrides:** Check your `extension-enablement.json` file. Local workspace configurations can sometimes override global settings, causing specific extensions to be disabled. Ensure AetherForge is permitted in your project's configuration.
+- **Global Scope:** Ensure the extension is enabled at the user level to be available across all projects:
+  ```bash
+  gemini extensions enable aetherforge --scope user
+  ```
+- **Workspace Overrides:** Check your `extension-enablement.json` file. Local workspace configurations can sometimes override global settings. Ensure AetherForge is permitted in your project's configuration.
+- **Drive-Specific Issues (Windows):** If working across multiple drives, ensure your `USERPROFILE` environment variable is correctly set (typically `C:\Users\YourName`), as this is where the CLI looks for the global `.gemini` config and extensions.
 
 ---
 
