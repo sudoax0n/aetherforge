@@ -1,3 +1,24 @@
+# Changelog
+
+## [1.0.1] - 2026-04-19
+
+### 🚀 What's New
+This release introduces **smart context injection**, allowing the `aetherforge` extension to automatically activate without manual prompting. 
+
+Previously, the Gemini CLI needed explicit instructions or hacky workarounds to find and load the AetherForge styling rules. Now, the extension seamlessly injects its core mandates directly into the AI's system prompt upon startup.
+
+### ✨ Features & Improvements
+- **Added `GEMINI.md` context file:** The AI is now explicitly ordered to invoke the AetherForge skill automatically whenever a user mentions "design," "frontend," "styling," or "Tailwind."
+- **Updated Extension Manifest:** Registered `contextFileName` in `gemini-extension.json` to enable background instruction loading.
+- **Improved AI DX:** Zero-configuration required from the user. The AI will no longer fall back to generic UIs when asked to build frontends while this extension is active.
+
+### 🔧 Under the Hood
+- Bumped version to `1.0.1`.
+- Whitelisted `GEMINI.md` in `.gitignore` to ensure it ships with the repository.
+
+---
+
+## [1.0.0] - Initial Release
 # 🌌 AetherForge — Elite frontend design skill for Gemini CLI. Forces bold, non-generic, production-grade UIs. No more AI slop.
 
 **The official Anthropic `frontend-design` skill, cleanly ported and refined for the Gemini CLI.**
