@@ -11,6 +11,7 @@ Previously, the Gemini CLI needed explicit instructions or hacky workarounds to 
 - **Added `GEMINI.md` context file:** The AI is now explicitly ordered to invoke the AetherForge skill automatically whenever a user mentions "design," "frontend," "styling," or "Tailwind."
 - **Updated Extension Manifest:** Registered `contextFileName` in `gemini-extension.json` to enable background instruction loading.
 - **Improved AI DX:** Zero-configuration required from the user. The AI will no longer fall back to generic UIs when asked to build frontends while this extension is active.
+- **Updated `README.md`:** Added documentation for the `gemini extensions update aetherforge` command.
 
 ### 🔧 Under the Hood
 - Bumped version to `1.0.1`.

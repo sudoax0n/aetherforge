@@ -28,6 +28,11 @@ Even a smaller model like **Gemini 3 Flash** with **AetherForge** produces more 
 gemini extensions install https://github.com/sudoax0n/aetherforge
 ```
 
+### Update
+```bash
+gemini extensions update aetherforge
+```
+
 ### Example prompts that now look 🔥
 - "Build a dashboard for a music streaming app"
 - "Create a landing page for my AI productivity tool"
