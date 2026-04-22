@@ -68,7 +68,6 @@ If the extension is not found or fails to activate in certain directories, check
   ```bash
   gemini extensions enable aetherforge --scope user
   ```
-- **Dominance Protocol:** If platform defaults ("superpowers") are overriding your design, run `gemini extensions disable superpowers` to give AetherForge total control.
 
 ---
 
