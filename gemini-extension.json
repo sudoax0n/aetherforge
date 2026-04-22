@@ -1,12 +1,17 @@
 {
   "name": "aetherforge",
   "displayName": "AetherForge",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "contextFileName": "GEMINI.md",
-  "description": "AetherForge — Elite frontend design skill for Gemini CLI. Forces bold, non-generic, production-grade UIs. No more AI slop.",
+  "description": "AetherForge — Elite frontend design suite for Gemini CLI. Includes Elite, Brutalist, SaaS, and Retro systems with the Vibe Picker logic.",
   "author": "sudoax0n",
   "homepage": "https://github.com/sudoax0n/aetherforge",
   "license": "MIT",
-  "tags": ["frontend", "ui", "design", "tailwind", "react", "aesthetic"],
-  "skills": ["skills/aetherforge"]
+  "tags": ["frontend", "ui", "design", "tailwind", "react", "aesthetic", "saas", "cyberpunk"],
+  "skills": [
+    "skills/aetherforge",
+    "skills/brutalist",
+    "skills/saas",
+    "skills/retro"
+  ]
 }

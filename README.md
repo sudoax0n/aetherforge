@@ -2,26 +2,28 @@
   <img src="docs/assets/socialbanner.png" width="100%" alt="AetherForge Banner" />
 </p>
 
-# AetherForge — Elite frontend design skill for Gemini CLI
+# AetherForge — Elite frontend design suite for Gemini CLI
 
 **Forces bold, non-generic, production-grade UIs. No more AI slop.**
 
-The official Anthropic `frontend-design` skill, cleanly ported and refined for **Gemini CLI**.
+AetherForge is a multi-aesthetic design suite that intercepts your frontend prompts and upgrades them with striking typography, intentional motion, and distinctive personality.
 
 ### What it does
-Whenever you ask Gemini to build any UI (landing page, dashboard, component, app, poster, etc.), **AetherForge** automatically activates and forces it to create **bold, memorable, production-grade interfaces** — completely avoiding generic AI aesthetics.
+Whenever you ask Gemini to build any UI (landing page, dashboard, component, app, etc.), **AetherForge** automatically activates. It uses a **Hybrid Selection Logic** to determine the best style for your project:
+1.  **Keyword Matching**: Mention "brutalist," "clean," or "retro" to trigger a specific system.
+2.  **Intent Inference**: It guesses the vibe based on your project (e.g., "admin dashboard" → SaaS).
+3.  **The Vibe Picker**: If the direction is blurred, Gemini will stop and ask you to choose your aesthetic.
 
-No more Inter font + purple gradient slop.  
-You get real aesthetic direction, striking typography, thoughtful motion, and personality.
+### 🌌 The Design Systems
 
-### AetherForge in Action
+| **Style** | **The Vibe** | **Best For...** |
+| :--- | :--- | :--- |
+| **Elite** | Refined, creative, unique. The "Golden Standard." | Brand landing pages, creative portfolios. |
+| **Brutalist** | Raw, industrial, high-contrast, visible structures. | Experimental apps, "honest" utility tools. |
+| **SaaS** | Clean, professional, whitespace-heavy, startup-ready. | Dashboards, Settings panels, B2B tools. |
+| **Retro** | Dark mode, monospaced, cyberpunk, terminal-style. | Dev tools, hacker consoles, tech portfolios. |
 
-Even a smaller model like **Gemini 3 Flash** with **AetherForge** produces more distinctive, professional results than a larger model like **Gemini 3.1 Pro** without it.
-
-| **Generic AI Slop** (Gemini 3.1 Pro) | **AetherForge Force** (3 Flash) |
-| :--- | :--- |
-| ![Generic Slop](docs/assets/comparison-generic.png) | ![AetherForge Result](docs/assets/comparison-aetherforge.png) |
-| *Purple gradients, Inter font, generic SaaS layout.* | *Bold typography, striking layout, unique personality.* |
+*(Comparison screenshots coming soon!)*
 
 ### One-command install
 ```bash
@@ -33,35 +35,42 @@ gemini extensions install https://github.com/sudoax0n/aetherforge
 gemini extensions update aetherforge
 ```
 
-### Example prompts that now look 🔥
-- "Build a dashboard for a music streaming app"
-- "Create a landing page for my AI productivity tool"
-- "Design a sleek settings panel with dark mode"
-- "Make a beautiful hero section for a SaaS product"
+### 🔥 Pro-Level Prompts
+Try these prompts to see the different systems in action. These are tuned to get the absolute best out of the AetherForge engine:
+
+#### 🏛️ Elite & Creative
+- *"Build an editorial-style landing page for a high-end architecture firm. Focus on massive serif typography and grid-breaking layouts."*
+- *"Design a creative portfolio homepage for a motion designer. Use a bold, asymmetrical layout with staggered entrance animations."*
+
+#### 🏗️ Brutalist & Raw
+- *"Build a raw, brutalist dashboard for monitoring server health. Use thick borders, safety orange accents, and visible grid lines."*
+- *"Create a brutalist 'links' page for my social media. Use high-contrast black and white with industrial-style typography."*
+
+#### 💼 SaaS & Professional
+- *"Build a clean, minimalist SaaS dashboard for a project management tool. Focus on generous whitespace, subtle 1px shadows, and a professional indigo accent."*
+- *"Design a professional settings panel for a cloud platform. Keep it efficient, whitespace-heavy, and use a refined 'Inter' or 'Geist' vibe."*
+
+#### 📟 Retro & Cyberpunk
+- *"Build a retro-futuristic hacker console for a security toolkit. Use dark mode, phosphor green monospaced text, and a subtle scanline overlay."*
+- *"Create a terminal-inspired landing page for a CLI tool. Use neon cyan accents on a deep black background with industrial brackets for borders."*
 
 ### How to test it locally
 ```bash
 gemini extensions link .
 ```
 
-Then try any frontend prompt like:
-> "Build a beautiful landing page for a Notion-style productivity tool"
-
-AetherForge should kick in automatically.
-
 ### Troubleshooting
 
 If the extension is not found or fails to activate in certain directories, check the following:
 
-- **Safe Mode:** Gemini CLI may restrict extension execution in untrusted folders. If you trust the current workspace, run `gemini trust` to enable all extension features.
+- **Safe Mode:** Gemini CLI may restrict extension execution in untrusted folders. Run `gemini trust` to enable all extension features.
 - **Global Scope:** Ensure the extension is enabled at the user level to be available across all projects:
   ```bash
   gemini extensions enable aetherforge --scope user
   ```
-- **Workspace Overrides:** Check your `extension-enablement.json` file. Local workspace configurations can sometimes override global settings. Ensure AetherForge is permitted in your project's configuration.
-- **Drive-Specific Issues (Windows):** If working across multiple drives, ensure your `USERPROFILE` environment variable is correctly set (typically `C:\Users\YourName`), as this is where the CLI looks for the global `.gemini` config and extensions.
+- **Dominance Protocol:** If platform defaults ("superpowers") are overriding your design, run `gemini extensions disable superpowers` to give AetherForge total control.
 
 ---
 
 **Made by [@sudoax0n](https://x.com/beyondwudan)**  
-Star ⭐ if you’re tired of generic AI UIs.
+*Star ⭐ if you’re tired of generic AI UIs.*

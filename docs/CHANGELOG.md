@@ -1,5 +1,24 @@
 # Changelog
 
+## [1.1.0] - 2026-04-22
+
+### 🚀 The Multi-Style Expansion & Vibe Picker
+This release transforms AetherForge from a single design system into a **comprehensive Design Suite**. You now have access to four distinct aesthetics and a smarter hybrid selection logic.
+
+### ✨ Features & Improvements
+- **Added SaaS Minimalist System**: A clean, professional, whitespace-heavy aesthetic for high-end dashboards and startup interfaces.
+- **Added Retro-Futuristic System**: A dark-mode, monospaced, cyberpunk-inspired look for terminal apps and developer tools.
+- **Implemented "The Vibe Picker"**: A new hybrid selection logic in `GEMINI.md`. 
+    - If your prompt is keyword-rich, Gemini automatically picks the best style.
+    - If the direction is "blurred," Gemini will halt and ask you to pick from the 4 available vibes.
+- **Dominance Protocol 2.0**: Hardened instructions in `GEMINI.md` to ensure AetherForge takes absolute precedence over generic platform defaults ("superpowers").
+
+### 🔧 Under the Hood
+- **Registration**: Added `skills/saas` and `skills/retro` to the extension manifest.
+- **Versioning**: Bumped version to `1.1.0`.
+
+---
+
 ## [1.0.1] - 2026-04-19
 
 ### 🚀 What's New
