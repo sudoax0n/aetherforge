@@ -1,6 +1,6 @@
 \---
 
-name: aetherforge
+name: elite
 
 description: Create distinctive, production-grade frontend interfaces with high design quality. Use this skill whenever the user asks to build web components, pages, artifacts, posters, dashboards, landing pages, or any UI. Generates creative, polished, memorable code that completely avoids generic AI aesthetics.
 

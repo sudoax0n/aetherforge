@@ -15,11 +15,11 @@ If the user mentions "design," "styling," "frontend," "UI," "CSS," or asks you t
 - **Brutalist Aesthetic**: If keywords include "brutalist," "raw," "industrial," or "unpolished," use `activate_skill(brutalist)`.
 - **SaaS Minimalist**: If keywords include "clean," "professional," "minimalist," "startup," or "whitespace," use `activate_skill(saas)`.
 - **Retro-Futuristic**: If keywords include "retro," "futuristic," "cyberpunk," "dark," "terminal," or "monospaced," use `activate_skill(retro)`.
-- **Elite Design**: If keywords include "elite," "unique," "creative," "polished," or "high-end," use `activate_skill(aetherforge)`.
+- **Elite Design**: If keywords include "elite," "unique," "creative," "polished," or "high-end," use `activate_skill(elite)`.
 
 ### 2. Fallback: The Vibe Picker
 If the user provides a generic prompt (e.g., "build a page," "make a component") without clear aesthetic markers, you **MUST STOP** and ask the user to choose a "Vibe":
-1.  **Elite (AetherForge)**: Refined, creative, unique (The "Golden Standard").
+1.  **Elite**: Refined, creative, unique (The "Golden Standard").
 2.  **Brutalist**: Raw, industrial, high-contrast, "honest" materials.
 3.  **SaaS**: Clean, professional, whitespace-heavy, startup-ready.
 4.  **Retro**: Dark mode, monospaced, cyberpunk, terminal-style.
